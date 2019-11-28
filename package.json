@@ -1,0 +1,27 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "A simple mail server",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jassu225/sms.git"
+  },
+  "keywords": [
+    "mail",
+    "server"
+  ],
+  "author": "jaswanthsaisattenapalli@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Jassu225/sms/issues"
+  },
+  "homepage": "https://github.com/Jassu225/sms#readme",
+  "dependencies": {
+    "nodemailer": "^4.7.0",
+    "smtp-server": "^3.4.7"
+  }
+}
